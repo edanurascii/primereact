@@ -5,12 +5,14 @@ export class Row extends Component {
 
     static defaultProps = {
         style: null,
-        className: null
+        className: null,
+        rowName: null
     }
 
     static propTypes = {
         style: PropTypes.object,
-        className: PropTypes.string
+        className: PropTypes.string,
+        rowName: PropTypes.string
     }
 
     render() {
